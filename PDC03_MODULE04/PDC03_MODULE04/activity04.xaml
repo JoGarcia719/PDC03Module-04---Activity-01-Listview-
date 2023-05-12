@@ -11,4 +11,22 @@
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="I'm Page 2"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="I'm Page 3"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
 </CarouselPage>

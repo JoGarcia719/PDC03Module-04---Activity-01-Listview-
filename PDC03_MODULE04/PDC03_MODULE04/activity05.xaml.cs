@@ -24,7 +24,14 @@ namespace PDC03_MODULE04
 
         async void onItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            if (listView.SelectedItem != null)
+            {
 
+                var detailPage = new DetailPage();
+                detailPage.BindingContext = e.SelectedItem as Contacts;
+                listView.SelectedItem = null;
+                await Navigation.PushModalAsync(detailPage);
+            }
         }
 
         void SetupData()
@@ -44,6 +51,25 @@ namespace PDC03_MODULE04
                 Occupation = "UI/UX",
                 Country = "Philippines"
             });
+            {
+                Name = "Jennifer Soto",
+                Age = 34,
+                Occupation = "SQA",
+                Country = "Philippines"
+            });
+            {
+                Name = "Joseph Garcia",
+                Age = 2,
+                Occupation = "SQA",
+                Country = "Philippines"
+            });
+            {
+                Name = "Gabriela Gonzalez",
+                Age = 35,
+                Occupation = "UI/UX",
+                Country = "Philippines"
+            });
+            { 
         }
     }
 }

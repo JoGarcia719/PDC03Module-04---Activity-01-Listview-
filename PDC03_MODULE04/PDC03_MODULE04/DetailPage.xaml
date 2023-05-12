@@ -11,17 +11,17 @@
 
                 <StackLayout Orientation="Horizontal">
                 <Label Text="Age" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
-                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="{Binding Age}" FontSize="Medium" FontAttributes="Bold" />
                 </StackLayout>
 
             <StackLayout Orientation="Horizontal">
                 <Label Text="Occupation" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
-                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="{Binding Occupation}" FontSize="Medium" FontAttributes="Bold" />
             </StackLayout>
 
             <StackLayout Orientation="Horizontal">
                 <Label Text="Country" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
-                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="{Binding Country}" FontSize="Medium" FontAttributes="Bold" />
             </StackLayout>
 
         </StackLayout>
